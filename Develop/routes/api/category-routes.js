@@ -6,7 +6,7 @@ const { Category, Product } = require('../../models');
 router.get('/', (req, res) => {
   // find all categories
   Category.findAll({
-    include: [Product]
+    include: [{ model: Product }],
   }).then(cat => {
     res.json(cat)
     console.log('found all');
@@ -30,10 +30,10 @@ router.get('/:id', (req, res) => {
 router.post('/', (req, res) => {
   // create a new category
   Category.create(req.body)
-  .then(cat => {
-    res.json(cat)
-    console.log('found one');
-  })
+    .then(cat => {
+      res.json(cat)
+      console.log('found one');
+    })
 });
 
 router.put('/:id', (req, res) => {
