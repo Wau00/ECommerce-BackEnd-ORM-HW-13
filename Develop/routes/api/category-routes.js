@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
   }).then(cat => {
     res.json(cat)
     console.log('found all');
-  })
+  }).catch(error => res.send(error).status(500));
 });
 
 router.get('/:id', (req, res) => {
