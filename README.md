@@ -26,6 +26,12 @@ As a user, feel free to interact with the routes, by requesting the specific par
 - ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)
 
 
+## Contact Me 
+- [LinkedIn](https://www.linkedin.com/in/walter-a-underwood-291524234/) 
+- [Walter Underwood](mailto:walonsounderwood@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
+
+
+
 ## License
  This project is protected under ![License](https://img.shields.io/badge/license-MIT-black?style=for-the-badge&logo=github&logoColor=white) . 
 
